@@ -13,16 +13,20 @@
         <input type="text" name="username" id="username" placeholder="Username" required>
         <input type="email" name="email" id="email" placeholder="Email" required>
         <input type="password" name="password" id="password" placeholder="Password" required>
+
+        <div class="passwordMatching">The passwords are not matching</div>
         <input type="password" id="repeatPassword" placeholder="Repeat password" required>
+
         <div id="checkboxContainer">
-            <input type="checkbox" name="checkbox" id="newsletterCheckbox">
+            <input type="checkbox" name="newsletter" id="newsletterCheckbox">
             <label for="newsletterCheckbox">Do you want to receive weekly newsletters?</label>
         </div>
         <button>Sign up</button>
     </form>
 
     <div class="hidden signedUpContainer">
-        <div class="message"></div>
+        <div class="message">Test</div>
+        <div class="newsletter"></div>
         <button id="closeBtn"><i class="fa-solid fa-xmark"></i></button>
     </div>
     
